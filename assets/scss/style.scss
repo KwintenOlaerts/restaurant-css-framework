@@ -9,22 +9,33 @@ body {
     justify-content: center;
     background-color: #d9d9d9;
 
-    height: 80%;
-    font-size: 25px;
+    height: 10vh;
+    font-size: 35px;
     font-family: 'Indie Flower', cursive;
 }
 
 .banner {
     background-color: #547a8c;
     display: flex;
-  justify-content: flex-start;
-  height: 100%;
+  justify-content: left;
+  color: antiquewhite;
+  
 }
 
 .middle {
+    
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/20150409-thin-and-tender-flour-tortillas-joshua-bousel.jpg)
+    height: 65vh;
+    background-image: url(../images/20150409-thin-and-tender-flour-tortillas-joshua-bousel.jpg);
+    font-size: 30px;
+    
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    background-color: lightsalmon;
 }
