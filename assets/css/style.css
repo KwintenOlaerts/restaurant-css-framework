@@ -1,0 +1,36 @@
+body {
+  color: blueviolet;
+  width: 100%; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  height: 80%;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive; }
+
+.banner {
+  background-color: #547a8c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: 100%; }
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/20150409-thin-and-tender-flour-tortillas-joshua-bousel.jpg); }

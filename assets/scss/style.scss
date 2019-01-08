@@ -1,0 +1,30 @@
+body {
+    color: blueviolet;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #d9d9d9;
+
+    height: 80%;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.banner {
+    background-color: #547a8c;
+    display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/20150409-thin-and-tender-flour-tortillas-joshua-bousel.jpg)
+}
