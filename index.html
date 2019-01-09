@@ -12,33 +12,76 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
-    <title>Twee Vier Cookin'</title>
+    <title>Tortilla's Delight</title>
     <!--Struggled long and hard with width, tip for in the future: use vh(viewheight instead of %)-->
-    </head>
+</head>
 
 <body>
-    <div class="header"> Twee Vier Tortillas<br></div>
-    <div class="banner">
-        <li><Ul><a href="about.html">about us</a></Ul>
-            <ul><a href="menu.html">Menu</a></ul>
-            <ul><a href="contact.html">Contact/Reservation</a> </ul>
-        </li></div>
-    <div class="middle">
-       <article>Hello everyone,
-           Here at Twee Vier Tortilla we try to give you the best Tortilla's. <br>
-           You can choose all your toppings, meat and everything in between. <br>
-           We also have our 4 classics, dishes carefully selected by our chef. <br>
-           You can find these in the section menu for are a guaranteed delicious dish!
-       </article>
-        
-    </div>
+  <div class="header"> Tortilla's Delight<br>
+    <!--my first bootstrap ever, navigation bar.-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
 
-    <div class="footer">
-        <p>Copyright: Kwinten Olaerts for Twee Vier 2019 
-            Adress: Aannemersstraat 211, Sint Amandsberg 
-            FAQ</p>
+    <div class="container">
+        <article class="row" data-aos="fade-up">
+          <h2 class="col-12 col-md-10 offset-md-1">About Tortilla's Delight</h2>
+          <p class="col-12 col-md-10 offset-md-1">Hello everyone,
+            Here at Tortilla's Delight we try to give you the best Tortilla's. <br>
+            You can choose all your toppings, meat and everything in between. <br>
+            We also have our 4 classics, dishes carefully selected by our chef. <br>
+            You can find these in the section menu for are a guaranteed delicious dish!</p>
+        </article>
+      </div>
+  
+  <!-- JUMBOTRON -->
+      <div class="jumbotron jumbotron-fluid container-fluid">
+        <div class="jumbotron-read">
+          <div class="container">
+            <div class="row">
+              <h2 class="display-4 col-md-10 offset-md-1">Work</h2>
+              <p class="lead col-md-10 offset-md-1">Do you want to work for Tortilla's Delight?<br>
+              Please feel free to contact us at any time.</p>
+            </div>
+            <div class="container">
+              <div class="text-center">
+                  <a href="contact.html" class="btn btn-dark offset-md-1 jumbotronbtn">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    </div>
+      <footer class="indexfooter">
+        <div class="container">
+          <section class="row container justify-content-center">
+            <h3 class="col-12"></h3>
+            <section class="col-12 row justify-content-center">
+              </a>
+            </section>
+          </section>
+        </div>
+        <p>&copy; Rights (Logo and Pictures) Reserved to Tortilla's Delight</p>
+      </footer>
+
 
     <!--Extra bootstrap files-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
