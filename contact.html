@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+         <!-- Extra Jquery for the contact form (?)-->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--CSS link-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
@@ -27,10 +29,16 @@
                       <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foto.html">Foto's</a>
                     </li>
                   </ul>
                 </div>
@@ -49,14 +57,54 @@
                     ex omnis? Laborum tenetur inventore incidunt distinctio suscipit quas, officia nam.</p>
                 </article>
               </div>
+
+              <section id="contact" class="content-section text-center">
+                  <div class="contact-section">
+                      <div class="container">
+                        <h2>Contact Us</h2>
+                        <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
+                        <div class="row">
+                          <div class="col-md-8 col-md-offset-2">
+                            <form class="form-horizontal">
+                              <div class="form-group">
+                                <label for="exampleInputName2">First Name</label>
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Twee Vier">
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleInputName3">Last Name</label>
+                                  <input type="text" class="form-control" id="exampleInputName3" placeholder="Acht">
+                                </div>
+                              <div class="form-group">
+                                <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="youremailhere@gmail.com">
+                              </div>
+                              <div class="form-group ">
+                                <label for="exampleInputText">Your Message</label>
+                               <textarea  class="form-control" placeholder="What would you like to share?"></textarea> 
+                              </div>
+                              <button type="submit" class="btn btn-default">Send Message</button>
+                            </form>
+          
+                            <hr>
+                              <h3>Our Social Sites</h3>
+                            <ul class="list-inline banner-social-buttons">
+                              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+                              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+                              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </section>
     
               <div class="jumbotron">
                 <h1 class="display-4">Hallo iedereen</h1>
-                <p class="lead">Bij Tortilla's Delight zijn wij altijd bereid om ons te verbeteren.<br> Indien u suggesties of vragen hebt, kan u ons altijd contacteren via de link. </p>
+                <p class="lead">Bij Tortilla's Delight zijn wij altijd bereid om ons te verbeteren.<br> Indien u suggesties of vragen hebt, kan u ons altijd contacteren via het formulier. </p>
                 <hr class="my-4">
-                <p>Ook reserveren kan u doen via deze link, of telefonisch via 0478/248.24.24</p>
+                <p>Ook zijn we telefonisch bereikbaar via 0478/248.24.24 van dinsdag tot en met zaterdag tussen 12 en 21u.</p>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Contacteer ons</a>
+                 
                 </p>
               </div>
               <!--My (first) responsive bootstrap footer-->
