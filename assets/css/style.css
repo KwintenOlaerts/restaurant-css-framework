@@ -1,5 +1,5 @@
 body {
-  color: blueviolet;
+  color: #d9d9d9;
   width: 100%; }
 
 .header {
@@ -36,4 +36,36 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  background-color: #d9d9d9; }
+  background-color: #d9d9d9;
+  background: url(../images/background.jpeg) center/cover fixed;
+  height: 45vh; }
+
+.jumbotron {
+  background: url(../images/background.jpeg) center/cover fixed; }
+
+.headerimage {
+  background-color: #05393E;
+  color: #f0f0f0; }
+
+.indexfooter {
+  background: #04574F;
+  height: 27vh; }
+
+.h2 {
+  font-size: 23px; }
+
+p {
+  font-size: 19px;
+  font-style: italic;
+  color: black; }
+
+.contactformtext {
+  color: black; }
+
+.container4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
